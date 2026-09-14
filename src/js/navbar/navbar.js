@@ -1,21 +1,14 @@
-function navbar(rotas, atual) {
-    const nav = document.getElementById('navbar');
-
-    const itens = rotas
-        .filter(rota => rota.label !== "") // <- novo
-        .map(rota => {
-            const ativo = rota.url === atual;
-            return `
-                <li>
-                    <a href="${rota.url}"
-                         ${ativo ? 'aria-current="page"' : ''}>
-                        ${rota.label}
-                    </a>
-                </li>`;
-        }).join('');
-    
-    nav.innerHTML = `
-        <nav class="menu"><ul>${itens}</ul></nav>`;
+function navbar(item_menu){
+    const navbar = document.getElementById('navbar');
+    navbar.innerHTML = `
+    <nav class="navbar">
+            ${
+                item_menu.filter(menu=> menu.label !== "")
+                .map((item)=>{
+                    return `<li><a href="${item.url}" class="navbar-item">${item.label}</a></li>`
+                }).join('')
+            }
+    </nav>`;
 }
 
-export { navbar }
+export { navbar };
