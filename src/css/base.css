@@ -1,3 +1,38 @@
+/*Paleta e tipografia*/
+:root {
+  --cor-primaria: oklch(41.946% 0.12026 258.309);
+  --cor-destaque: oklch(52.954% 0.19967 26.892);
+  --cor-superficie: oklch(100% 0.00011 271.152);
+  --cor-fundo: oklch(89.944% 0.00645 255.73);
+  --tinta-1: oklch(24.078% 0.02017 254.901);
+  --tinta-2: oklch(45.07% 0.0152 255.644);
+  --estado-tinta-aprovada: oklch(45.323% 0.09159 143.494);
+  --estado-tinta-votacao: oklch(45.099% 0.0991 67.763);
+  --estado-tinta-reprovado: oklch(45.671% 0.03473 266.018);
+  --estado-tinta-expirado: oklch(50.079% 0.01481 255.637);
+  --estado-fundo-aprovada:oklch(94.971% 0.04028 155.582);
+  --estado-fundo-votacao:oklch(94.946% 0.04997 82.791);
+  --estado-fundo-reprovado:oklch(93.032% 0.00469 258.619);
+  --estado-fundo-expirado:oklch(95.07% 0.00526 248.35);
+
+  --txt-preco: 34px;
+  --txt-2xl: 24px;
+  --txt-xl: 19px;
+  --txt-lg: 16px;
+  --txt-md: 14px;
+  --txt-sm: 13px;
+  --txt-xs: 12px;
+
+  --espaco-4: 4px;
+  --espaco-8: 8px;
+  --espaco-12: 12px;
+  --espaco-16: 16px;
+  --espaco-20: 20px;
+  --espaco-24: 24px;
+
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -7,9 +42,9 @@
 html,
 body {
   padding: 0;
-  margin: 0;
-  max-width: 440px;
+  max-width: 420px;
   margin: 0 auto;
+  box-sizing: border-box;
   height: 100dvh;
    border: 1px red solid;/* borda temporaria */
 }

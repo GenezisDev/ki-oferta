@@ -12,6 +12,13 @@ const listaDeProdutos = [
 ]
 function produtos(app) {
     app.innerHTML = `
+    <label for="input-busca"></label>
+        <input 
+            type="text" 
+            id="input-busca" 
+            placeholder="Produto ou marca"
+            aria-label="campo busca de produto"
+        >
     <div>
     <h1>Página produtos</h1>
     ${

@@ -3,28 +3,28 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    gap: 12%;
+    gap: var(--espaco-8);
     position: fixed;
     bottom: 0;
-    width:440px;
+    width: 420px;
     height: 60px;
-    border-top: 1px solid #da9797;
+    border-top: 1px solid var(--tinta-2);
 }
 
 .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5a5959;
-    padding-bottom: 15px;
-    gap:15px;
+    background-color: var(--cor-superficie);
+    padding-bottom: var(--espaco-16);
+    gap:var(--espaco-24);
 }
 .navbar-item{
     text-decoration: none;
-    color: #5a5959;
+    color: var(--tinta-1);
 }
 
 .navbar-item:hover{
-    border-top: 2px solid blue;
+    border-top: var(--espaco-4) solid var(--cor-primaria);
 }
 
