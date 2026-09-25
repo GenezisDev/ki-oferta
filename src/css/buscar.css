@@ -36,6 +36,7 @@
     position: absolute;
     color: var(--tinta-2);
     padding-left: var(--espaco-4);
+    width: 30px;
     height: 30px;
     border-radius: 10px 0 0 10px;
 }
@@ -45,7 +46,7 @@
     border: var(--cor-destaque);
     border-radius: 0 10px 10px 0;
     height: 30px;
-    width: 8%;
+    width: 30px;
 }
 
 .categorias-busca{

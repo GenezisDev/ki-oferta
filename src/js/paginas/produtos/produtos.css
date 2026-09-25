@@ -1,0 +1,31 @@
+.produto {
+    display: flex;
+    border: 1px solid #6a6262;
+    margin: 10px 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #6a6262;
+}
+
+.produto-imagem {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.produto-distancia {
+    width: 45%;
+}  
+
+.preco-especial {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--cor-destaque);
+}
+
+.imagem-produto {
+    width: 50px;
+}
