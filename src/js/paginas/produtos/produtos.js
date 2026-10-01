@@ -1,12 +1,12 @@
 import './produtos.css'
 import listaDeProdutos from '../../dadosMockados/dados.js'
 
-function produtos(app) {
+function produtos(app, item) {
     app.innerHTML = `
     <div>
     <h1>Página produtos</h1>
     ${
-        listaDeProdutos.map((produto)=>{
+        listaDeProdutos.filter((categoria)=> categoria.categoria === item).map((produto)=>{
             return `<div class="produto">
                         <div class="produto-imagem>
                             <img src="${produto.img}" alt="A imagem de um produto" class="imagem-produto">

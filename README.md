@@ -68,22 +68,3 @@ Este projeto usa o [`@capacitor/create-app`](https://github.com/ionic-team/creat
 ## Status
 
 Este é um projeto didático em construção. Funcionalidades, estrutura de pastas e padrões podem mudar conforme o aprendizado avança.
-
-## Respostas das questões
-A1. O que é o framework e qual abordagem ele segue? 
-   O framework escolhido, bulma, é um framework de biblioteca css que funciona a partir de classes, contando com vários componentes e modificadores pra maior customização.
-A2. Como você incluiu o framework na página?
-   baixei o arquivo zip e, após extrair os arquivos, instalei a folha de estilo css principal na pasta css da página, então importei ao arquivo pela url.
-A3. Cite três benefícios que você percebeu ao usar, não apenas os que o site do framework anuncia.
-   Aplicar os estilos usando o framework é bem mais rápido, além de os modificadores aumentam ainda mais as possibilidades.
-   Poder definir componentes como botões usando os recursos do framework realmente é uma facilidade maior.
-   Os recursos de layout ajudam a organizar os elementos da página, diminuindo a quantidade de regras que eu preciso fazer manualmente.
-A4. Cite duas limitações ou desvantagens. Exemplos: tamanho do arquivo baixado, aparência genérica, curva de aprendizado, dificuldade para sobrescrever um estilo. 
-   A quantidade de linhas de código de cada arquivo torna muito dificil de conseguir se lembrar e acompanhar os recursos, que acaba tirando o propósito de usar o framework, por precisar o tempo todo ficar voltando na documentação pra encontrar o que eu preciso.
-   Nos momentos que eu quero trocar cores ou alguma característica da página, ter que ir no arquivo css e procurar manualmente a parte que eu quero fazer diferente é péssimo,, além da dificuldade de sobrescrever caso tivesse usado o framework através de um import. 
-A5. Abra o CSS do framework (ou inspecione um elemento no DevTools F12). Ele estiliza usando classes ou IDs? Por que você acha que frameworks preferem um dos dois?
-   O bulma utiliza de classes principalmente, a preferência se deve por poder aplicar as mudanças de uma forma mais abrangente a todos os itens que utilizarem da classe, ao invés de por ID que é uma aplicação mais individual.
-A6. Fontes: a documentação oficial é obrigatória, mais pelo menos uma outra fonte. Para cada uma: título, endereço e data de acesso. 
-   Official Bulma Documentation
-   https://bulma.io/documentation/
-   15/09/2026
