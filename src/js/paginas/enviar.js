@@ -24,7 +24,8 @@ async function enviar(app) {
     </form>`;
 }
 export default { 
-  url: '#enviar', 
-  label: 'Enviar', 
-  icon: "arrow-up-from-line",
-  pagina: enviar };
+  url: '#enviar',
+   label: 'Enviar',
+   icon: "arrow-up-from-line",
+    pagina: enviar
+   };

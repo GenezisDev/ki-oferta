@@ -54,7 +54,7 @@ function adicionarEvento(app){
     botaoBusca.addEventListener("click",()=>{
        produtos.pagina(app)
     })
-
+    
     listaCategoria.forEach(item => item.addEventListener("click", ()=>{
         produtos.pagina(app, item.textContent.trim())
     }))

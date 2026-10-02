@@ -3,37 +3,35 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    gap: var(--espaco-8);
+    gap: 12%;
     position: fixed;
     bottom: 0;
-    width: 420px;
+    width:440px;
     height: 60px;
-    border-top: 1px solid var(--tinta-2);
+    border-top: 1px solid #da9797;
 }
 
 .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cor-superficie);
-    padding-bottom: var(--espaco-16);
-    gap:var(--espaco-24);
+    color: #5a5959;
+    padding-bottom: 15px;
+    gap: 33px;
 }
 .navbar-item{
     text-decoration: none;
-    color: var(--tinta-1);
+    color: #5a5959;
 }
-
-.navbar-item__icon {
+.navbar-item__icon{
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 42px;
     font-size: 1.2rem;
-    gap: 5px;
 }
 
 .navbar-item:hover{
-    border-top: var(--espaco-4) solid var(--cor-primaria);
+    border-top: 2px solid blue;
 }
 
